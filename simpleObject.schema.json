@@ -1,0 +1,16 @@
+{
+   "$schema": "https://json-schema.org/draft/2020-12/schema",
+   "$id": "https://www.hbz-nrw.de/toscience/simpleObject.schema.json",
+   "title": "Simple Object",
+   "description": "A Simple Object for the Metadata Format toscience.json",
+   "required": [ "prefLabel", "@id" ],
+   "type": "object",
+   "properties": {
+      "prefLabel": {
+         "type": "string"
+      },
+      "@id": {
+         "type": "string"
+      }
+   }
+}

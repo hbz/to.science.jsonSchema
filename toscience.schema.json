@@ -1,0 +1,30 @@
+{
+   "$schema": "https://json-schema.org/draft/2020-12/schema",
+   "$id": "https://www.hbz-nrw.de/toscience/toscience.schema.json",
+   "title": "toscience.json",
+   "description": "Bibliographic descriptive metadata of the format toscience.json",
+   "type": "object",
+   "properties": {
+      "@id": {
+         "description": "The ID of the resource in toscience",
+         "type": "string"
+      },
+      "rdftype": {
+         "description": "The type of the resource",
+         "type": "array",
+         "items": {
+            "$ref": "https://www.hbz-nrw.de/toscience/simpleObject.schema.json"
+         },
+	 "minItems": 1
+      },
+      "creator": {
+         "description": "The creator of the resource",
+         "type": "array",
+         "items": {
+            "$ref": "https://www.hbz-nrw.de/toscience/simpleObject.schema.json"
+         },
+	 "minItems": 1
+      }
+   },
+   "required": [ "@id", "rdftype", "creator" ]
+}
