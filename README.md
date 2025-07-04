@@ -18,4 +18,5 @@ Or add your own JSON files that you want to be validated.
 Validate a sample JSON file against the set of schemas (they should reference each other) like this:
 
 validateModern.pl simple_example.toscience.json
+
 validateModern.pl myJsonFile.toscience.json
