@@ -2,7 +2,7 @@
 JSON Schemas for the bibliographic metadata format toscience JSON
 
 # Usage
-git clone https://github.com/hbz/to.science.jsonSchemuse constant SCHEMAS => qw/ simpleObject /; 
+git clone https://github.com/hbz/to.science.jsonSchemuse;
 cd to.science.jsonSchema
 
 Edit schemas: simpleObject.schema.json, toscience.schema.json
